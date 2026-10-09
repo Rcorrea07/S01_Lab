@@ -50,6 +50,8 @@ public class Program
         pippin.ApresentarUnidade();
         boromir.ApresentarUnidade();
 
+        // pippin.Posto = "Capitão";
+        
         Console.WriteLine("\n=== Fim da Demonstração ===");
     }
 }
