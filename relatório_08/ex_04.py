@@ -25,9 +25,7 @@ class OperadorNetrunner(IUnidadeDeRede):
               f"e está quebrando o gelo (ICE) de um servidor.")
 
 
-class DroneDeVigilancia(IUnidadeDe
-
-Rede):
+class DroneDeVigilancia(IUnidadeDeRede):
 
     def __init__(self, codigo: str):
         self.codigo = codigo
